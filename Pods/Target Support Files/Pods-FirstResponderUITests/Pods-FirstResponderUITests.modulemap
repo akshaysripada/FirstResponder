@@ -1,0 +1,6 @@
+framework module Pods_FirstResponderUITests {
+  umbrella header "Pods-FirstResponderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

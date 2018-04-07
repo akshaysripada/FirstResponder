@@ -10,6 +10,11 @@ import UIKit
 
 class ViewControllerTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var labelPhone: UILabel!
+    @IBOutlet weak var labelAddress: UILabel!
+    @IBOutlet weak var labelMatch: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
